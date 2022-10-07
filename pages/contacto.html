@@ -67,7 +67,39 @@
       </div>
       <!-----------------------------------------Formulario------------------------------------------------------>
       <!----------------------Aplicado componentes de boostrap y maquetado con flexbox de boostrap----------------->
-      <section class="sectionContacto"></section>
+      <section class="sectionContacto">
+        <form class="container">
+          <div class="mb-3 d-flex align-items-center flex-column">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Ingrese su Email</label
+            >
+            <input
+              type="email"
+              class="form-control w-50"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="mb-3 d-flex align-items-center flex-column">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Ingrese sus Comentarios</label
+            >
+            <textarea
+              class="form-control w-50"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <div class="d-flex align-items-center flex-column">
+            <button
+              type="submit"
+              class="botonContacto btn btn-dark align-items-center form-control w-50"
+            >
+              Enviar
+            </button>
+          </div>
+        </form>
+      </section>
       <!---------------------------Footer agregar iconos ms adelante--------------------------------------------->
       <footer class="footer margen-interno">
         <nav class="pie">
