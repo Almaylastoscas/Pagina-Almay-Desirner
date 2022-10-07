@@ -315,7 +315,11 @@ video {
     font-size: 12px;
   }
 }
-
+@media all and (max-width: 330px) {
+  .texto-principal li h4 {
+    display: none;
+  }
+}
 /*-----------------------------------------------------animacion------------------------------------------*/
 @media (prefers-reduced-motion: no-preference) {
   .img1 {
